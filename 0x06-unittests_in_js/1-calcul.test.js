@@ -56,4 +56,4 @@ describe('calculateNumber', () => {
             assert.equal(calculateNumber('DIVIDE', 0, 4.9), 0);
         })
     });
-})
+});
