@@ -54,6 +54,9 @@ describe('calculateNumber', () => {
         });
         it('Input is zero', () => {
             assert.equal(calculateNumber('DIVIDE', 0, 4.9), 0);
+        });
+        it('Should return Error when b is 0', () => {
+            assert.equal(calculateNumber('DIVIDE', 10, 0), 'Error');
         })
     });
 });
