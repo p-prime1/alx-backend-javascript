@@ -12,10 +12,10 @@ describe('calculateNumber', () => {
   it('Rounds up Negative numbers', () => {
     assert.equal(calculateNumber(-3.2, -4.7), -8);
   });
-  it('Rounds up properly', () => {
-    assert.equal(calculateNumber(1.5, 2.5), 5);
+  it('Rounds up  second number properly', () => {
+    assert.equal(calculateNumber(2, 2.5), 5);
   });
   it('Input is zero', () => {
     assert.equal(calculateNumber(0, 4.9), 5);
-  })
+  });
 });
